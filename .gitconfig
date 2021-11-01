@@ -8,3 +8,5 @@
 	email = xelnaga.hybrid@gmail.com
 [init]
 	defaultBranch = master
+[core]
+	editor = emacs
