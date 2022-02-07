@@ -25,3 +25,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Update packages' mirrors
 # alias mirror-update=
 PS1='[\u@\h \W]\$ '
+
+export PATH="${PATH}:${HOME}/.local/bin:${HOME}/.emacs.d/bin"
+
