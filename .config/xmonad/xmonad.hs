@@ -86,7 +86,7 @@ myStartupHook = do
 
                 -- | Set up an icon tray:
                 spawnOnce "trayer --edge top --align right --SetDockType true --SetPartialStrut true \
-                          \ --expand true --width 10 --transparent true --tint 0x5f5f5f --height 18 & "
+                          \ --expand true --width 10 --transparent true --tint 0x5f5f5f --height 20 & "
 
                 -- | Set the default X cursor to the usual pointer:
                 spawnOnce "xsetroot -cursor_name left_ptr"
